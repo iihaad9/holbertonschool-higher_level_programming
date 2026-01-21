@@ -18,6 +18,6 @@ value = roman.get(ch, 0)
 if value < prev:
 total -= value
 else:
- total += value
+total += value
 prev = value
 return total
