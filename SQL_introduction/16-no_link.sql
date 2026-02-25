@@ -1,2 +1,5 @@
--- List all records of second_table ordered by score (desc)
-SELECT score, name FROM second_table ORDER BY score DESC;
+-- List all records with a name value ordered by score DESC
+SELECT score, name
+FROM second_table
+WHERE name IS NOT NULL
+ORDER BY score DESC;
