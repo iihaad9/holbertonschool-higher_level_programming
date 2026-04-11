@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-import sys
-str = "Python is an interpreted, interactive, object-oriented programming language that combines remarkable power with very clear syntax"
-str = str[39:67] + str[106:112] + str[:6]
-sys.stdout.write(str)
+str = "object-oriented programming with Python"
+print(str[0:6] + str[6:8] + str[8:17] + str[17:23] + str[23:])
